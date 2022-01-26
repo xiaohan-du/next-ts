@@ -1,0 +1,7 @@
+.navbar {
+  display: flex;
+  flex-direction: column;
+  &-link {
+    color: white;
+  }
+}

@@ -1,16 +1,13 @@
-import Link from 'next/link';
+import Head from 'next/head';
+import Layout from '../components/Layout';
 
-const PhD = () => {
+const phd = () => {
   return (
-    <>
+    <Layout>
+      <Head><title>PhD</title></Head>
       <h1>My PhD</h1>
-      <Link href='/'>
-        <a>
-          Back to home
-        </a>
-      </Link>
-    </>
+    </Layout>
   )
 };
 
-export default PhD;
+export default phd;

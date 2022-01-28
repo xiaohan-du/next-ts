@@ -4,10 +4,10 @@ import styles from '../styles/Navbar.module.scss'
 const Navbar = () => {
   return (
     <nav className={styles.navbar}>
-      <Link href="/"><a className={styles['navbar-link']}>Home</a></Link>
-      <Link href="career"><a className={styles['navbar-link']}>Career</a></Link>
-      <Link href='projects'><a className={styles['navbar-link']}>Projects</a></Link>
-      <Link href='PhD'><a className={styles['navbar-link']}>PhD</a></Link>
+      <Link href="/"><a className={styles.navbarLink}>Home</a></Link>
+      <Link href="career"><a className={styles.navbarLink}>Career</a></Link>
+      <Link href='projects'><a className={styles.navbarLink}>Projects</a></Link>
+      <Link href='phd'><a className={styles.navbarLink}>PhD</a></Link>
     </nav>
   )
 }
